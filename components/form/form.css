@@ -91,3 +91,7 @@ article > ul > li {
   border-radius: 4px;
   padding: 0 5px;
 }
+
+small {
+  text-align: right;
+}
