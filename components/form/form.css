@@ -1,0 +1,97 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: auto;
+}
+
+#form__tag {
+  width: 420px;
+}
+@media (max-width: 700px) {
+  #tag {
+    width: 180px;
+  }
+}
+
+.submit {
+  padding: 10px 30px 10px 30px;
+  margin-top: 2rem;
+}
+
+.label {
+  display: flex;
+  margin-top: 3rem;
+  left: 0;
+}
+
+button {
+  margin-bottom: 2rem;
+}
+
+textarea {
+  width: 420px;
+  height: 9ch;
+}
+
+@media (max-width: 700px) {
+  textarea {
+    width: 180px;
+  }
+}
+.new-card {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+article {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  max-width: 600px;
+  min-width: 600px;
+  min-height: 400px;
+  padding: 2rem;
+  border: 1px solid var(--black);
+  border-radius: 4px;
+  margin-bottom: 6rem;
+}
+article > button,
+p,
+h2 {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+article > button {
+  background: var(--secondary);
+  color: var(--white);
+  border: none;
+  display: block;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+}
+
+.new-card > article > ul {
+  display: flex;
+  text-align: left;
+  margin-left: 0;
+}
+article > ul > li {
+  background-color: var(--secondary);
+  color: var(--white);
+  border-radius: 4px;
+  padding: 0 5px;
+}
+
+small {
+  text-align: right;
+}
